@@ -1,0 +1,124 @@
+:root {
+    --text_color: #100f0f;
+    --radius: 5px;
+}
+
+.master {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 680px;
+    line-height: 1.5em;    
+    text-align: left;
+    color: var(--text_color);
+}
+
+.home {
+    padding-top: 7%;
+    font-size: 16px;
+}
+
+.blog {
+    padding-top: 7%;
+    font-size: 17px;
+    line-height: 1.7em;
+}
+
+.sepatator_line {
+    height: 1.2px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #a19f9f;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+    .master {
+        width: 80%;
+    }
+
+    .sepatator_line {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .master {
+        width: 90%;
+    }
+
+    .sepatator_line {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+.header_div {
+    color: rgb(59, 58, 58);
+    font-weight: 600;
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 10px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: left;
+    color: var(--text_color);
+}
+
+a {
+    color: var(--text_color);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+a.subtitle {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+
+.location_span{
+    background-color: rgb(206, 205, 205);
+    padding: 4px 8px 4px 8px;
+    font-style: italic;
+    font-family: monospace;
+    border-radius: var(--radius);
+}
+
+/* .info_blog */
+
+.footer{
+    padding-top: 3%;
+    font-size: 16px;
+    text-decoration: none;
+    text-decoration-style: solid;
+    padding-bottom: 40px;
+}
+
+.code_div{
+    padding: 12px 16px 8px 16px;
+    background-color: #222222;
+    color: white;
+    font-family: monospace;
+    font-style: italic;
+    line-height: 1em;
+    border-radius: var(--radius);
+}
+
+.img_r{
+    border-radius: var(--radius);
+}
